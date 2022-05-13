@@ -4,8 +4,6 @@ import './NewExpense.css';
 
 const NewExpense = (props) => {
     const [isEditing, setIsEditing] = useState(false);
-    // فانکشن را در پرنت می نویسیم و در کامپوننت چاید هم به صورت پراپرتی می نویسم 
-    //بعد در چایلد با پراپس /آن فانکشن را میگیریم و دیتا را توی اون فانکشن پاس میکنیم.
     const whenUserInputCreateHandler = (enteredExpenceData) => {
         const expenceData = {
             ...enteredExpenceData,
